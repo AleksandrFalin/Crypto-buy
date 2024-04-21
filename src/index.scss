@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	--tw-bg-opacity: 1;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+body {
+	--tw-bg-opacity: 1;
+	background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@layer utilities {
+	.w-80-m-auto {
+		@apply w-80 m-0-auto px-4;
+	}
+}
+
+.burger {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	&::after,
+	&::before {
+		content: '';
+		position: absolute;
+		border: 1px solid rgb(181, 175, 175);
+		left: 0;
+		width: 100%;
+		transform: rotate(0deg);
+	}
+
+	&::after {
+		bottom: 0.6rem;
+	}
+
+	&::before {
+		top: 0.8rem;
+	}
+}
