@@ -29,6 +29,20 @@ body {
 	.w-80-m-auto {
 		@apply w-80 m-0-auto px-4;
 	}
+
+	.w-1280-m-auto {
+		@apply w-custom m-0-auto;
+	}
+
+	.grid-columns {
+		display: grid;
+		grid-template-columns: 30% 70%;
+		align-items: center;
+	}
+
+	.grid-columns-graph {
+		grid-template-columns: repeat(4, 100px);
+	}
 }
 
 .burger {

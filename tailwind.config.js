@@ -9,6 +9,9 @@ export default {
 			margin: {
 				'0-auto': '0 auto',
 			},
+			width: {
+				custom: '1280px',
+			},
 		},
 	},
 	plugins: [],
