@@ -43,6 +43,14 @@ body {
 	.grid-columns-graph {
 		grid-template-columns: repeat(4, 100px);
 	}
+
+	.full-height-desc {
+		min-height: calc(100vh - 272px);
+	}
+
+	.full-height-mobile {
+		min-height: calc(100vh - 574px);
+	}
 }
 
 .burger {

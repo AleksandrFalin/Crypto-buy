@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<footer className='xl:relative xl:after:absolute xl:border-t xl:after:border-b xl:border-gray-600 xl:after:border-gray-600 xl:after:w-full xl:after:bottom-16'>
-			<div className='w-80-m-auto pb-4 xl:w-1280-m-auto xl:px-8 xl:flex xl:flex-col xl:gap-6 xl:pt-8'>
+			<div className='pt-4 w-80-m-auto pb-4 xl:w-1280-m-auto xl:px-8 xl:flex xl:flex-col xl:gap-6 xl:pt-8'>
 				<div className=' xl:flex xl:flex-row xl:w-1280-m-auto xl:justify-between xl:items-center xl:pb-8 '>
 					<h2 className='text-2xl text-center border py-1 rounded-3xl mb-8 xl:mb-0 xl:text-xl xl:py-2 xl:px-2 xl:rounded-full'>
 						CryptoFusion Nexus

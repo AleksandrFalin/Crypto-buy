@@ -11,18 +11,26 @@ function Header() {
 				</div>
 				<nav className='hidden xl:flex xl:pt-2 xl:gap-10'>
 					<ul className=' xl:flex xl:items-center xl:gap-10  '>
-						<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
-							Home
-						</li>
-						<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
-							Exchange
-						</li>
-						<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
-							Market
-						</li>
-						<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
-							Info
-						</li>
+						<Link to='home'>
+							<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
+								Home
+							</li>
+						</Link>
+						<Link to='exchange'>
+							<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
+								Exchange
+							</li>
+						</Link>
+						<Link to='market'>
+							<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
+								Market
+							</li>
+						</Link>
+						<Link to='info'>
+							<li className='xl:text-2xl cursor-pointer opacity-50 xl:transition-all xl:ease-in-out xl:hover:opacity-100'>
+								Info
+							</li>
+						</Link>
 					</ul>
 					<aside>
 						<img
@@ -35,7 +43,10 @@ function Header() {
 						<Link className='xl:text-2xl xl:border xl:border-white xl:rounded-3xl xl:px-2 xl:py-1 xl:hover:opacity-45 xl:mr-4 xl:transition-all xl:ease-in-out'>
 							Login
 						</Link>
-						<Link className='xl:text-2xl xl:border xl:border-white xl:rounded-3xl xl:px-2 xl:py-1 xl:hover:opacity-45 xl:transition-all xl:ease-in-out'>
+						<Link
+							to='sign-up'
+							className='xl:text-2xl xl:border xl:border-white xl:rounded-3xl xl:px-2 xl:py-1 xl:hover:opacity-45 xl:transition-all xl:ease-in-out'
+						>
 							Sign up
 						</Link>
 					</div>
