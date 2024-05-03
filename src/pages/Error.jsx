@@ -11,7 +11,7 @@ const Error = () => {
 				</p>
 				<Link
 					to='/home'
-					className='border border-white  py-2 rounded-3xl hover:opacity-50 transition-all ease-in-out xl:w-1/3'
+					className='border border-white px-2  xl:py-2 rounded-3xl hover:opacity-50 transition-all ease-in-out xl:w-1/3'
 				>
 					Go to home
 				</Link>
